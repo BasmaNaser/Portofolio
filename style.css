@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo",
+        sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+button, #contact_me .container .content i, header nav ul li a {
+    cursor: pointer;
+}
+
+header {
+    height: 100vh;
+    background-color: #000000c0;
+    transition: .5s;
+}
+
+header section {
+    width: 80%;
+    margin: auto;
+}
+
+#about_me .content {
+    display: flex;
+    height: 80vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: #fa0d5c
+}
+
+nav h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: .5s;
+}
+
+nav h2:hover {
+    rotate: 360deg;
+}
+
+nav h2 span {
+    color: #ff0054;
+}
+
+nav button, .content .container button {
+    border-radius: 25px;
+    background-color: #ff0054;
+    border: 1px solid #ff0054;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .6s;
+    padding: 10px 20px;
+}
+
+nav button a, .content .container button a, .content .container button a {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    transition: .6s;
+}
+
+nav button:hover, .content .container button:hover {
+    color: #ff0054;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+nav button:hover a, .content .container button:hover a {
+    color: #ff0054;
+}
+
+/* #about_me .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+} */
+
+.container img {
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+header .container p {
+    color: #ffffffb2;
+    margin: 9px 0;
+}
+
+header .container h1 {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+header .container h1 span {
+    color: #ff0054
+}
+
+header .container .em_group {
+    margin: 30px 0;
+    position: relative;
+}
+
+header .container .email {
+    width: 320px;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 12px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+header .container .email::placeholder {
+    color: #272731;
+    font-weight: 600;
+}
+
+header .container .email:focus::placeholder {
+    color: #4e4b4b;
+}
+
+header .container .email:focus {
+    outline: 2px solid #ff0054;
+}
+
+header .container .sub {
+    border-radius: 20px;
+    background-color: #ff0054;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    transition: .6s;
+    padding: 10px 15px;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    transition: .5s
+}
+
+header .container .sub:hover {
+    color: #ff0054;
+    background-color: #000;
+}
+
+#about_me {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    height: 85vh;
+    border-bottom: 1px solid #ffffff;
+}
+
+#about_me img {
+    width: 500px;
+    height: 100vh;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* #about_me .container div {
+    margin: 30px 30px 30px auto;
+} */
+
+.title {
+    width: 500px
+}
+
+.title h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.title h4 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 25px auto;
+    color: #ff0054
+}
+
+.title p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #ffffffb7;
+}
+
+.content .container button {
+    margin-top: 35px;
+}
+
+#our_services p, #our_services1 p {
+    width: 200px;
+    font-size: 15px;
+    color: #ffffffc0;
+}
+
+#our_services .container1 .content, #our_services1 .container .content, #contact_me .container .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#our_services .container1, #our_services1 .container, #contact_me .container {
+    width: 90%;
+    margin: auto;
+}
+
+#our_services .container1 h2, #our_services1 .container h2, #contact_me .container h2 {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#our_services, #our_services1, #contact_me {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#our_services .container1 .content i, #our_services1 .container .content i {
+    color: #ff0054;
+    font-size: 38px;
+    margin: 15px auto;
+    transition: .5s;
+}
+
+#our_services .container1 .content i:hover, #our_services1 .container .content i:hover {
+    color: #fff;
+    scale: 1.1;
+    rotate: 360deg;
+}
+
+#our_services .container1 .content div, #our_services1 .container .content div {
+    background-color: #272731;
+    padding: 20px 20px;
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.service .container1 .content div {
+    height: 90px;
+}
+
+#our_services .container1 .content div:hover, #our_services1 .container .content div:hover {
+    background-color: #ffffff8a;
+}
+
+#our_services .container1 .content div h3, #our_services1 .container .content div h3 {
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 10px
+}
+
+#our_services1 .container .content div {
+    height: 280px;
+}
+
+#contact_me {
+    background-color: #000000cc;
+}
+
+#contact_me .container h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #ffffffd7;
+}
+
+#contact_me .container .content i {
+    font-size: 30px;
+    margin: auto 25px;
+    color: #ff0054;
+    transition: .5s;
+}
+
+#contact_me .container .content i:hover {
+    scale: 1.4;
+    rotate: 360deg;
+    color: #fff;
+}
+
+footer {
+    background: #000;
+    padding: 20px auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+footer h4 span {
+    transition: .5s;
+}
+
+footer h4 span:hover {
+    color: #ff0054;
+}
+
+header .container, #about_me .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+}
+
+#about_me .container {
+    text-align: start;
+}
+
+#our_services .container1 .content div .h3 a {
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer
+}
+
+#our_services .container1 .content div .h3 a:hover {
+    color: #fa0d5c;
+    cursor: pointer
+}
+
+#our_services .container1 .content.project div {
+    width: 370px;
+}
+
+#about_me, #our_services, #contact_me {
+
+    border-bottom: 1px solid #ffffff;
+}
+
+#about_me .content .container .title .yearedu {
+    font-size: 20px;
+}
+
+#about_me .content .container .title div {
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+@media screen and (max-width:1080px) and (min-width:600px) {
+    nav ul li {
+        margin-right: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    nav h2 {
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+    }
+
+    nav button, .content .container button {
+        font-weight: 400;
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    nav button a, .content .container button a, .content .container button a {
+        letter-spacing: .5px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    /* kli */
+    .container img {
+        width: 100%;
+        height: 450%;
+        padding-top: 20px;
+        overflow: hidden;
+        margin-left: 30px;
+    }
+
+    header .container p {
+        color: #ffffffb2;
+        margin: 7px 0;
+    }
+
+    header .container h1 {
+        font-size: 33px;
+        letter-spacing: 2px;
+    }
+
+    header .container .em_group {
+        margin: 25px 0;
+    }
+
+    header .container .email {
+        width: 280px;
+        border-radius: 18px;
+        height: 40px;
+        padding-left: 12px;
+
+    }
+
+    header .container .email::placeholder {
+        font-weight: 500;
+    }
+
+    #projects #our_services .container1.work h2 {
+        font-size: 32px;
+    }
+
+    #projects #our_services .container1.work .content div {
+        width: 900px;
+        height: 200px;
+    }
+
+    #projects #our_services .container1.work .content div h3 {
+        font-size: 30px;
+    }
+
+    #projects #our_services .container1.work .content div p {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Home h2 {
+        font-size: 12px;
+    }
+
+    .Home li a {
+        font-size: 9px;
+    }
+
+    .Home ul {
+        align-items: center;
+    }
+
+    .Home nav {
+        justify-content: space-between;
+    }
+
+    .Home nav li {
+        margin-right: 4px;
+    }
+
+    #about_me .container h1 {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    #about_me .container h4 {
+        font-size: 18px;
+    }
+
+    footer h4 {
+        font-size: 20px;
+    }
+
+    #about_me .container p {
+        font-size: 15px;
+    }
+
+    #about_me .container {
+        width: 80%;
+    }
+
+    footer h4 {
+        font-size: 12px;
+    }
+
+    #contact_me .container h2 {
+        font-size: 0px;
+        display: none;
+    }
+
+    #about_me .content .container .title .yearedu {
+        font-size: 10px;
+    }
+
+    #our_services .container1 .content div, #our_services1 .container .content div {
+        width: 280px;
+    }
+
+    #our_services .container1 .content div .h3 a {
+        font-size: 16px;
+        color: #ffffff
+    }
+
+}
